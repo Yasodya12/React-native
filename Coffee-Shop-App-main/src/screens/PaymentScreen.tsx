@@ -171,7 +171,7 @@ const PaymentScreen = ({navigation, route}: any) => {
           ))}
         </View>
       </ScrollView>
-
+      // kuda moaya
       <PaymentFooter
         buttonTitle={`Pay with ${paymentMode}`}
         price={{price: route.params.amount, currency: '$'}}
