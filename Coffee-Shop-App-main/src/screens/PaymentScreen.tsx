@@ -63,7 +63,7 @@ const PaymentScreen = ({navigation, route}: any) => {
       navigation.navigate('History');
     }, 2000);
   };
-
+// kuda moaya
   return (
     <View style={styles.ScreenContainer}>
       <StatusBar backgroundColor={COLORS.primaryBlackHex} />
