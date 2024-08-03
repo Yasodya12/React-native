@@ -53,7 +53,7 @@ const PaymentScreen = ({navigation, route}: any) => {
 
   const [paymentMode, setPaymentMode] = useState('Credit Card');
   const [showAnimation, setShowAnimation] = useState(false);
-// kuda moaya
+
   const buttonPressHandler = () => {
     setShowAnimation(true);
     addToOrderHistoryListFromCart();
