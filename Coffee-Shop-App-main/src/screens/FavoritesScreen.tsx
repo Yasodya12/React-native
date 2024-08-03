@@ -14,6 +14,8 @@ import HeaderBar from '../components/HeaderBar';
 import EmptyListAnimation from '../components/EmptyListAnimation';
 import FavoritesItemCard from '../components/FavoritesItemCard';
 
+
+// kuda moaya
 const FavoritesScreen = ({navigation}: any) => {
   const FavoritesList = useStore((state: any) => state.FavoritesList);
   const tabBarHeight = useBottomTabBarHeight();
