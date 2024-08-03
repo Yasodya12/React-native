@@ -180,7 +180,7 @@ const PaymentScreen = ({navigation, route}: any) => {
     </View>
   );
 };
-
+// kuda moaya
 const styles = StyleSheet.create({
   ScreenContainer: {
     flex: 1,
