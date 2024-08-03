@@ -21,7 +21,7 @@ import LinearGradient from 'react-native-linear-gradient';
 import CustomIcon from '../components/CustomIcon';
 import {useStore} from '../store/store';
 import PopUpAnimation from '../components/PopUpAnimation';
-
+// kuda moaya
 const PaymentList = [
   {
     name: 'Wallet',
