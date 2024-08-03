@@ -44,7 +44,7 @@ const PaymentList = [
     isIcon: false,
   },
 ];
-// kuda moaya
+
 const PaymentScreen = ({navigation, route}: any) => {
   const calculateCartPrice = useStore((state: any) => state.calculateCartPrice);
   const addToOrderHistoryListFromCart = useStore(
